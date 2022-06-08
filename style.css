@@ -21,7 +21,7 @@ html, body {
 }
 .button:hover {
     background: #d6c1db;
-    color: green;
+    color: rgb(154, 173, 154);
 }
 .row {
     margin: 8px 0;
