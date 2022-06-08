@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Lato:wght@300;400&family=Oswald:wght@300&family=Playfair+Display:wght@400;500&family=Roboto+Mono&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+
+html, body {
+    height: 80%;
+    width: 100%;
+    font-family: 'Koulen', cursive;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(111,121,9,1) 0%, rgba(0,212,255,1) 100%); 
+}
+
+.button {
+    width: 52px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    background: green;
+    color: white;
+    font-weight: bold;
+}
+.button:hover {
+    background: #d6c1db;
+    color: green;
+}
+.row {
+    margin: 8px 0;
+}
+.row input {
+    width: 236px;
+    font-size: 21px;
+    margin: 0;
+    padding: 10px 0px;
+    border-radius: 5px;
+    border: 2px solid black;
+    color: black;
+    font-weight: bold;
+    background-color: yellowgreen;
+}
+h1 {
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 2rem;
+}
